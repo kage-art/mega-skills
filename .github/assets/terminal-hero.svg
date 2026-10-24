@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .text-dim { fill: #64748b; font-size: 13px; }
+    .text-light { fill: #94a3b8; font-size: 13px; }
+    .text-white { fill: #f8fafc; font-size: 14px; font-weight: 600; }
+    .text-cyan { fill: #38bdf8; font-size: 13px; font-weight: 600; }
+    .text-green { fill: #34d399; font-size: 13px; font-weight: 600; }
+    .text-yellow { fill: #fbbf24; font-size: 13px; }
+    .text-purple { fill: #c084fc; font-size: 13px; }
+    .text-red { fill: #f87171; font-size: 13px; }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    .pulsing-border {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Window Container with Glow -->
+  <rect x="25" y="20" width="850" height="480" rx="16" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  <rect x="25" y="20" width="850" height="480" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" class="pulsing-border"/>
+
+  <!-- Window Titlebar -->
+  <path d="M 25 36 A 16 16 0 0 1 41 20 L 859 20 A 16 16 0 0 1 875 36 L 875 64 L 25 64 Z" fill="#131d31"/>
+  <line x1="25" y1="64" x2="875" y2="64" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Traffic Light Window Buttons -->
+  <circle cx="50" cy="42" r="6" fill="#ef4444"/>
+  <circle cx="70" cy="42" r="6" fill="#f59e0b"/>
+  <circle cx="90" cy="42" r="6" fill="#10b981"/>
+
+  <!-- Window Title -->
+  <text x="450" y="47" text-anchor="middle" class="font-mono text-dim" font-weight="500">terminal — npx kage-art/mega-skills</text>
+
+  <!-- Terminal Content Area -->
+  <g transform="translate(50, 95)" class="font-mono">
+    <!-- Prompt -->
+    <text x="0" y="0" class="text-green">user@workstation</text>
+    <text x="140" y="0" class="text-dim">:</text>
+    <text x="155" y="0" class="text-cyan">~/projects</text>
+    <text x="240" y="0" class="text-white">$ npx kage-art/mega-skills</text>
+
+    <!-- Banner Output -->
+    <text x="0" y="32" class="text-cyan">========================================================================</text>
+    <text x="0" y="52" class="text-cyan" font-weight="700">⚡ MEGA MASTER AGENT SKILLS INSTALLER &amp; DEFENSE SUITE (NPX ONE-SHOT)</text>
+    <text x="0" y="70" class="text-dim">Zero-Slop Code &amp; UI • Android &amp; iOS Native • Senior TDD • Cyber Security</text>
+    <text x="0" y="88" class="text-cyan">========================================================================</text>
+
+    <!-- Cyber Shield Verification -->
+    <text x="0" y="118" class="text-yellow">[*] 🛡️  Running Pre-Install Cyber Security, Secret &amp; Malware Scan...</text>
+    <text x="20" y="140" class="text-green">[✔] Secrets &amp; Keys: 100% Clean (0 leaked AWS, GitHub, or API tokens)</text>
+    <text x="20" y="160" class="text-green">[✔] Skills Library: 100% Clean (0 viruses, 0 backdoors, 0 prompt exploits)</text>
+    <text x="20" y="180" class="text-green">[✔] Package Security: Verified safe (0 malicious install hooks)</text>
+
+    <!-- Target Installations -->
+    <text x="0" y="212" class="text-cyan">[*] Installing Full Master Skill Suite (55 Production Skills)...</text>
+    <text x="20" y="234" class="text-light">  <tspan class="text-green">[✔]</tspan> Google Antigravity &amp; Gemini CLI <tspan class="text-dim">(~/.gemini/config/skills)</tspan></text>
+    <text x="20" y="254" class="text-light">  <tspan class="text-green">[✔]</tspan> Claude Code <tspan class="text-dim">(~/.claude/skills)</tspan></text>
+    <text x="20" y="274" class="text-light">  <tspan class="text-green">[✔]</tspan> Cursor IDE &amp; Windsurf <tspan class="text-dim">(~/.cursor/skills &amp; .cursorrules)</tspan></text>
+    <text x="20" y="294" class="text-light">  <tspan class="text-green">[✔]</tspan> OpenAI Codex &amp; AAIF Standard <tspan class="text-dim">(~/.codex/skills &amp; .agents/skills)</tspan></text>
+
+    <!-- Success Card Box -->
+    <rect x="0" y="318" width="800" height="74" rx="8" fill="#042f2e" fill-opacity="0.4" stroke="#10b981" stroke-width="1"/>
+    <text x="20" y="344" class="text-green" font-weight="700">★ [SUCCESS] 55 MASTER AGENT SKILLS PERMANENTLY ACTIVATED!</text>
+    <text x="20" y="366" class="text-light">Android Compose M3 • iOS Swift 6 • Anti-Slop UI • Superpowers TDD • GSAP Motion</text>
+    <text x="20" y="382" class="text-yellow" font-size="11">⭐ Enjoying MegaSkills? Star us on GitHub: https://github.com/kage-art/mega-skills</text>
+  </g>
+</svg>

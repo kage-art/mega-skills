@@ -626,6 +626,11 @@ ${colors.bold}Instant Activation:${colors.reset}
     - "Scan this downloaded skill for malware with skill-malware-scanner"
     - "Audit packages before install with supply-chain-security-scanner"
     - "Apply android-master to rebuild this screen"
+
+${colors.yellow}${colors.bold}⭐ Help MegaSkills Grow & Stay Updated:${colors.reset}
+  If MegaSkills helped your AI write cleaner code and stop producing slop:
+  ${colors.bold}1. Star the repo on GitHub:${colors.reset}  ${colors.cyan}https://github.com/kage-art/mega-skills${colors.reset}
+  ${colors.bold}2. 1-Click Share on X/Twitter:${colors.reset} ${colors.blue}https://twitter.com/intent/tweet?text=Just%20upgraded%20my%20AI%20coding%20assistants%20(Cursor%20%2F%20Claude%20%2F%20Antigravity)%20with%20MegaSkills%20(55%2B%20skills%20for%20Android%2C%20iOS%2C%20anti-slop%20and%20cyber%20security)!%0A%0AInstall%3A%20npx%20kage-art%2Fmega-skills%0A%0Ahttps%3A%2F%2Fgithub.com%2Fkage-art%2Fmega-skills${colors.reset}
 ========================================================================
 `);
 }

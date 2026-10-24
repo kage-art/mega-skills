@@ -2,16 +2,26 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Skills Count](https://img.shields.io/badge/Curated%20Skills-52%2B-brightgreen.svg)](catalog/catalog.md)
-[![Total Ecosystem Skills](https://img.shields.io/badge/Ecosystem%20Skills-213%2B-orange.svg)](docs/AWESOME_SKILLS.md)
-[![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-purple.svg)](docs/GUIDE_MOBILE.md)
-[![Architecture](https://img.shields.io/badge/System-Architecture%20Verified-blueviolet.svg)](docs/ARCHITECTURE.md)
-[![Zero-Slop](https://img.shields.io/badge/AI%20Quality-Zero--Slop%20Certified-success.svg)](docs/ANTI_SLOP_MANIFESTO.md)
+[![GitHub Stars](https://img.shields.io/github/stars/kage-art/mega-skills?style=for-the-badge&logo=github&color=gold)](https://github.com/kage-art/mega-skills/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/kage-art/mega-skills?style=for-the-badge&logo=github&color=blue)](https://github.com/kage-art/mega-skills/network/members)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/kage-art/mega-skills/ci.yml?branch=main&style=for-the-badge&logo=githubactions)](https://github.com/kage-art/mega-skills/actions)
+[![Curated Skills](https://img.shields.io/badge/Curated%20Skills-55%2B-brightgreen.svg?style=for-the-badge)](catalog/catalog.md)
+[![Security Verified](https://img.shields.io/badge/Security-100%25%20Verified%20Clean-success.svg?style=for-the-badge)](#-cyber-security--safety-scanners)
+[![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-purple.svg?style=for-the-badge)](docs/GUIDE_MOBILE.md)
 
-**A single-installation mega repository that upgrades your AI coding assistant with production-grade engineering discipline, zero-slop UI/UX standards, and native mobile mastery (Android & iOS).**
+<br/>
+
+<p align="center">
+  <img src=".github/assets/terminal-hero.svg" alt="MegaSkills Terminal Hero" width="880">
+</p>
+
+**A single-installation mega repository that upgrades your AI coding assistant with production-grade engineering discipline, zero-slop UI/UX standards, native mobile mastery (Android & iOS), and automated cyber security scanners.**
 
 Works seamlessly with **Google Antigravity**, **Claude Code**, **Cursor IDE**, **Windsurf**, **OpenAI Codex**, **GitHub Copilot**, and **OpenCode**.
+
+<br/>
+
+[🚀 Quick Install](#-single-command-installation) • [📱 Mobile Android & iOS](#-native-android--ios-app-development) • [🛡️ Cyber Antivirus](#-cyber-security--safety-scanners) • [📋 Catalog](catalog/catalog.md) • [⭐ Star on GitHub](https://github.com/kage-art/mega-skills)
 
 </div>
 
@@ -187,7 +197,16 @@ This repository aggregates and curates skills from the world's leading open-sour
 
 ## 📋 Master Catalog
 
-Browse all 52 curated skills in the **[Catalog Document (catalog/catalog.md)](catalog/catalog.md)** or inspect the machine-readable **[Catalog JSON (catalog/catalog.json)](catalog/catalog.json)**.
+Browse all 55 curated skills in the **[Catalog Document (catalog/catalog.md)](catalog/catalog.md)** or inspect the machine-readable **[Catalog JSON (catalog/catalog.json)](catalog/catalog.json)**.
+
+---
+
+## ⭐ Show Your Support
+
+If **MegaSkills** helped upgrade your AI coding assistant and eliminate generic slop:
+- **Star this repository** to help other developers discover it!
+- **Share on X / Twitter** using [this 1-click share link](https://twitter.com/intent/tweet?text=Just%20upgraded%20my%20AI%20coding%20assistants%20(Cursor%20%2F%20Claude%20%2F%20Antigravity)%20with%20MegaSkills%20(55%2B%20skills%20for%20Android%2C%20iOS%2C%20anti-slop%20and%20cyber%20security)!%0A%0AInstall%3A%20npx%20kage-art%2Fmega-skills%0A%0Ahttps%3A%2F%2Fgithub.com%2Fkage-art%2Fmega-skills).
+- **Submit your custom skill** by opening a [Pull Request](https://github.com/kage-art/mega-skills/pulls).
 
 ---
 

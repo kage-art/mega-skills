@@ -20,6 +20,9 @@ jobs:
       - name: Verify Skills Safety & Formatting
         run: npm run verify
 
+      - name: Run Cyber Security & Malware Scanners
+        run: npm run scan
+
       - name: Test Master Skill Installation
         run: npm run install:master
 
