@@ -1,0 +1,617 @@
+{
+  "version": "1.0.0",
+  "totalCount": 54,
+  "generatedAt": "2026-10-24T13:03:55.197Z",
+  "skills": [
+    {
+      "id": "antislop-code",
+      "name": "antislop-code",
+      "category": "anti-slop",
+      "description": "Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.",
+      "relPath": "skills/anti-slop/antislop-code/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "antislop-copywriting",
+      "name": "antislop-copywriting",
+      "category": "anti-slop",
+      "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns. Load with the core.",
+      "relPath": "skills/anti-slop/antislop-copywriting/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "antislop-human",
+      "name": "antislop-human",
+      "category": "anti-slop",
+      "description": "Human and accessibility skill for antislop. Contrast, keyboard, focus, and states for real people. Includes the contrast checker.",
+      "relPath": "skills/anti-slop/antislop-human/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "antislop-layoutmobile",
+      "name": "antislop-layoutmobile",
+      "category": "anti-slop",
+      "description": "Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets. Load with the core.",
+      "relPath": "skills/anti-slop/antislop-layoutmobile/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "antislop-ui",
+      "name": "antislop-ui",
+      "category": "anti-slop",
+      "description": "UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core.",
+      "relPath": "skills/anti-slop/antislop-ui/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "baseline-ui",
+      "name": "baseline-ui",
+      "category": "anti-slop",
+      "description": "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
+      "relPath": "skills/anti-slop/baseline-ui/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "fixing-accessibility",
+      "name": "fixing-accessibility",
+      "category": "anti-slop",
+      "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+      "relPath": "skills/anti-slop/fixing-accessibility/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "fixing-motion-performance",
+      "name": "fixing-motion-performance",
+      "category": "anti-slop",
+      "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+      "relPath": "skills/anti-slop/fixing-motion-performance/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "hallmark-themes",
+      "name": "hallmark",
+      "category": "anti-slop",
+      "description": "Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or design something new, or names Hallmark. Never use it on an existing design unless the user names Hallmark, as in `/hallmark redesign <path",
+      "relPath": "skills/anti-slop/hallmark-themes/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "impeccable-craft",
+      "name": "impeccable",
+      "category": "anti-slop",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX review, hierarchy, layout, typography, color, motion, UX copy, accessibility, responsive behavior, edge cases, and capturing or documenting design systems (DESIGN.md, tokens). Also for making bland UI bolder, loud UI quieter, or ambitious visual effects. Not for backend-only or non-UI tasks.",
+      "relPath": "skills/anti-slop/impeccable-craft/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "improve-ui",
+      "name": "improve-ui",
+      "category": "anti-slop",
+      "description": "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.",
+      "relPath": "skills/anti-slop/improve-ui/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "mobile-anti-slop",
+      "name": "mobile-anti-slop",
+      "category": "anti-slop",
+      "description": "Universal Mobile Anti-Slop Directive for Android, iOS, React Native, and Flutter. Eradicates all sloppy mobile UI/UX and architectural flaws: keyboard obscuring text fields, clipped text under accessibility font scaling, tiny touch targets under 48dp/44pt, status bar and home indicator overlapping, missing offline/empty states, trapped back navigation, and clumsy web-first patterns forced onto mobile touchscreens.",
+      "relPath": "skills/anti-slop/mobile-anti-slop/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "graphify-codebase-intel",
+      "name": "graphify-codebase-intel",
+      "category": "codebase-intelligence",
+      "description": "Master skill for building and querying structural knowledge graphs of codebases using Graphify. Extracts AST symbols, function call graphs, inheritance hierarchies, and dependency relationships. Use when exploring large unfamiliar codebases, planning architectural refactoring, or performing deep impact analysis across multi-module projects.",
+      "relPath": "skills/codebase-intelligence/graphify-codebase-intel/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "gsap-motion-master",
+      "name": "gsap-motion-master",
+      "category": "creative-motion-and-3d",
+      "description": "Master skill for high-performance web animations using GreenSock Animation Platform (GSAP 3). Covers timelines, tweens, ScrollTrigger (pinning, scrub, snapping), gsap.matchMedia for responsive and accessible animations (prefers-reduced-motion), SVG morphing, and React/Vue/Vanilla lifecycle management. Use whenever creating smooth web animations, interactive landing pages, or complex motion graphics.",
+      "relPath": "skills/creative-motion-and-3d/gsap-motion-master/SKILL.md",
+      "platforms": [
+        "Web",
+        "WebGL",
+        "Frontend"
+      ]
+    },
+    {
+      "id": "lenis-smooth-scroll",
+      "name": "lenis-smooth-scroll",
+      "category": "creative-motion-and-3d",
+      "description": "Master skill for buttery smooth momentum scrolling using Lenis (Darkroom Engineering). Covers installation, initialization, GSAP ScrollTrigger synchronization, RAF loop integration, anchor link scrolling, accessibility checks (prefers-reduced-motion), and React/Next.js setup. Use whenever adding smooth scrolling to modern web applications and portfolio sites.",
+      "relPath": "skills/creative-motion-and-3d/lenis-smooth-scroll/SKILL.md",
+      "platforms": [
+        "Web",
+        "WebGL",
+        "Frontend"
+      ]
+    },
+    {
+      "id": "vanta-3d-backgrounds",
+      "name": "vanta-3d-backgrounds",
+      "category": "creative-motion-and-3d",
+      "description": "Master skill for embedding animated 3D WebGL background effects using Vanta.js (Three.js and p5.js). Covers high-performance configuration of WAVES, NET, HALO, DOTS, FOG, CLOUDS, BIRDS, and RIPPLE. Includes GPU memory leak prevention, destroy lifecycle cleanup, mobile responsiveness, and dark mode theming. Use whenever creating visually stunning 3D interactive hero sections and animated landing pages.",
+      "relPath": "skills/creative-motion-and-3d/vanta-3d-backgrounds/SKILL.md",
+      "platforms": [
+        "Web",
+        "WebGL",
+        "Frontend"
+      ]
+    },
+    {
+      "id": "android-adaptive-layouts",
+      "name": "adaptive",
+      "category": "mobile-android",
+      "description": "Instructions to make or update an app",
+      "relPath": "skills/mobile-android/android-adaptive-layouts/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-master",
+      "name": "android-master",
+      "category": "mobile-android",
+      "description": "Master engineering and UI/UX skill for native Android development. Enforces modern Kotlin, Jetpack Compose, Material Design 3, Unidirectional Data Flow (UDF), ViewModel, StateFlow, Room database, edge-to-edge window insets, predictive back gestures, 48dp minimum touch targets, sp typography scaling, ANR prevention, and emulator/hardware verification via adb. Use whenever creating, reviewing, refactoring, or optimizing native Android applications.",
+      "relPath": "skills/mobile-android/android-master/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-permissions-security",
+      "name": "android-permissions-security",
+      "category": "mobile-android",
+      "description": "Audits, detects gaps, and remediates Android permissions and IPC component",
+      "relPath": "skills/mobile-android/android-permissions-security/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-anr-audit",
+      "name": "anr-audit-and-fix",
+      "category": "mobile-android",
+      "description": "Audits Android codebases for ANR risks and diagnoses ANR stack dumps.",
+      "relPath": "skills/mobile-android/android-anr-audit/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-camerax",
+      "name": "camerax",
+      "category": "mobile-android",
+      "description": "Provide technical guidance for Android camera development with CameraX.",
+      "relPath": "skills/mobile-android/android-camerax/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-edge-to-edge",
+      "name": "edge-to-edge",
+      "category": "mobile-android",
+      "description": "Use this skill to migrate your Jetpack Compose app to add adaptive edge-to-edge",
+      "relPath": "skills/mobile-android/android-edge-to-edge/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "jetpack-compose-performance",
+      "name": "jetpack-compose-performance",
+      "category": "mobile-android",
+      "description": "Diagnose and optimize Android Jetpack Compose UI code. Use this skill",
+      "relPath": "skills/mobile-android/jetpack-compose-performance/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "android-navigation-3",
+      "name": "navigation-3",
+      "category": "mobile-android",
+      "description": "Learn how to install and migrate to Jetpack Navigation 3, and how to",
+      "relPath": "skills/mobile-android/android-navigation-3/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "flutter-master-craft",
+      "name": "flutter-master-craft",
+      "category": "mobile-cross-platform",
+      "description": "Master skill for building production-grade, 60/120fps cross-platform mobile apps using Flutter. Covers clean architecture, Riverpod / BLoC state management, platform-adaptive UI (Material 3 on Android, Cupertino on iOS), widget tree performance (RepaintBoundary, const constructors), deep linking, and integration with native device APIs.",
+      "relPath": "skills/mobile-cross-platform/flutter-master-craft/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "react-native-pulsar-haptics",
+      "name": "pulsar-haptics",
+      "category": "mobile-cross-platform",
+      "description": "Implement, migrate, design, review, and troubleshoot haptic feedback with Software Mansion Pulsar across React Native, iOS, Android, Kotlin Multiplatform, Flutter, and Web. Use when the user names Pulsar; a Pulsar package such as react-native-pulsar, com.swmansion:pulsar, com.swmansion:pulsar-kmp, pulsar_haptics, or pulsar-haptics; a Pulsar import, preset, composer, setting, installation, migration, or runtime problem; a Figma design carrying Pulsar haptic bindings; or explicitly requests migration to Pulsar. Do not use for generic haptics, vibration, Core Haptics, browser Vibration API, expo-haptics, animation, audio, motion, or UI-polish work without Pulsar evidence or explicit Pulsar intent.",
+      "relPath": "skills/mobile-cross-platform/react-native-pulsar-haptics/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "react-native-best-practices",
+      "name": "react-native-best-practices",
+      "category": "mobile-cross-platform",
+      "description": "Software Mansion",
+      "relPath": "skills/mobile-cross-platform/react-native-best-practices/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "ios-apple-design-master",
+      "name": "apple-design",
+      "category": "mobile-ios",
+      "description": "Cross-platform UI/UX design reviewer grounded in Apple's Human Interface Guidelines (123 pages pulled from developer.apple.com, including 57 component pages) plus a design-craft lens for distinctive, non-templated work. Use it to audit, review, critique, or improve any mobile app (iOS, Flutter, React Native) or desktop app (macOS, Tauri, Electron) design: design review, UI audit, HIG compliance, accessibility audit, dark mode, Liquid Glass or glassmorphism, navigation structure, iPhone Duo or foldable layouts, Apple Pay buttons and marks, widgets and Live Activities, onboarding, forms, app icons, generative AI UX, App Review rejections over design or branding, or requests like \"make this look less generic\". Also use whenever the user shares screenshots, mockups, wireframes, Figma exports, or UI code and wants feedback, even if they only say \"review my design\" or \"is this good UI\", or asks to audit a codebase or pull request. Works for SwiftUI, UIKit, AppKit, Flutter, React Native, Tauri, and Electron.",
+      "relPath": "skills/mobile-ios/ios-apple-design-master/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "ios-swiftui-master",
+      "name": "ios-swiftui-master",
+      "category": "mobile-ios",
+      "description": "Master engineering and UI/UX skill for native iOS and iPadOS development. Enforces modern Swift 6, SwiftUI, Apple Human Interface Guidelines (HIG), Swift Concurrency (@MainActor, async/await, Actors, Sendable), Clean Architecture, Liquid Glass & system vibrancy, Safe Area insets, Dynamic Type scaling, haptic feedback (UIImpactFeedbackGenerator), and simulator verification via xcrun simctl. Use whenever creating, auditing, or optimizing native iOS applications in Swift and SwiftUI.",
+      "relPath": "skills/mobile-ios/ios-swiftui-master/SKILL.md",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mobile"
+      ]
+    },
+    {
+      "id": "strix-find-security-vulnerabilities-in-code",
+      "name": "find-security-vulnerabilities-in-code",
+      "category": "security-and-safety",
+      "description": "Find security vulnerabilities in a codebase or repository with Strix — a white-box AI security review that reads your source, reasons about the actual data flow and authorization model, then exploits what it finds in a live sandbox so every reported issue has a working proof-of-concept instead of a noisy static-analysis alert. Covers injection, XSS, SSRF, broken access control and IDOR, insecure deserialization, secrets in code, unsafe dependencies, and business-logic flaws. Use when the user asks to security-scan, security-review, or audit their code, repo, or pull request for vulnerabilities.",
+      "relPath": "skills/security-and-safety/strix-find-security-vulnerabilities-in-code/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "strix-owasp-top-10-testing",
+      "name": "owasp-top-10-testing",
+      "category": "security-and-safety",
+      "description": "Test an application against the OWASP Top 10 with Strix — autonomous AI agents that attempt real exploits for each category of the current OWASP Top 10:2025 (broken access control including SSRF, security misconfiguration, software supply chain failures, cryptographic failures, injection, insecure design, authentication failures, integrity failures, logging and alerting failures, mishandling of exceptional conditions) and report only what they could actually prove, mapped back to the category with a proof-of-concept. Also covers the OWASP API Security Top 10 (2023). Use when the user asks for an OWASP Top 10 assessment, OWASP compliance testing, or a security review mapped to OWASP categories.",
+      "relPath": "skills/security-and-safety/strix-owasp-top-10-testing/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "strix-penetration-testing-with-strix",
+      "name": "penetration-testing-with-strix",
+      "category": "security-and-safety",
+      "description": "Pentest a web app, API, codebase, repository, URL, domain, or IP with Strix — autonomous AI penetration testing that exploits and proves vulnerabilities (OWASP Top 10 and beyond — injection, XSS, SSRF, auth/access-control flaws, IDOR, business logic) instead of just flagging them. Runs self-hosted with the open-source CLI or via the managed app.strix.ai cloud, and returns validated findings with proof-of-concept exploits (Markdown, JSON, CSV, SARIF). Use when the user asks to pentest, hack, security-scan, security-audit, or find vulnerabilities in an app, API, website, or repo.",
+      "relPath": "skills/security-and-safety/strix-penetration-testing-with-strix/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "skillspector-safety-scanner",
+      "name": "skill-inspector",
+      "category": "security-and-safety",
+      "description": "Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, installable, over-permissioned, or malicious.",
+      "relPath": "skills/security-and-safety/skillspector-safety-scanner/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "skill-malware-scanner",
+      "name": "skill-malware-scanner",
+      "category": "security-and-safety",
+      "description": "Deterministic and heuristic cyber security scanner that inspects AI agent skills, prompts, tools, and scripts before installation to detect viruses, malware, backdoors, reverse shells, prompt injections, and data exfiltration.",
+      "relPath": "skills/security-and-safety/skill-malware-scanner/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "supply-chain-security-scanner",
+      "name": "supply-chain-security-scanner",
+      "category": "security-and-safety",
+      "description": "Audits npm, PyPI, Cargo, and Go packages, libraries, dependencies, and lockfiles before installation. Detects malicious lifecycle scripts (preinstall/postinstall), typosquatting, dependency confusion, leaked registry tokens, and known CVE vulnerabilities.",
+      "relPath": "skills/security-and-safety/supply-chain-security-scanner/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "reticle-agentic-tdd",
+      "name": "agentic-tdd",
+      "category": "senior-engineering-and-tdd",
+      "description": "Test-driven development for behaviour a unit test cannot reach, by writing the expectation against the running app before writing the code. Declare the consequence first, watch it fail, implement, watch it pass. Use when building a user-facing feature, when the user asks for TDD on UI or full-stack work, when a unit test cannot express the outcome that matters, or when you want a red-green loop that runs against the real app instead of mocks.",
+      "relPath": "skills/senior-engineering-and-tdd/reticle-agentic-tdd/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "reticle-audit-my-app",
+      "name": "audit-my-app",
+      "category": "senior-engineering-and-tdd",
+      "description": "Sweep a whole running web app for what is broken, without writing a script or knowing the codebase. Clicks every reachable control and reports dead buttons, console errors, failed requests, and places where the API and the screen disagree. Use on an unfamiliar codebase, before a release, after a big merge or dependency bump, when the user asks for a smoke test or a health check, or when someone says",
+      "relPath": "skills/senior-engineering-and-tdd/reticle-audit-my-app/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "superpowers-executing-plans",
+      "name": "executing-plans",
+      "category": "senior-engineering-and-tdd",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "relPath": "skills/senior-engineering-and-tdd/superpowers-executing-plans/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "ponytail-audit",
+      "name": "ponytail-audit",
+      "category": "senior-engineering-and-tdd",
+      "description": "Quality audit of a whole repo: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked, each finding explained in plain English. One-shot report, changes nothing. Use for \"audit this codebase\", \"review the whole repo\", \"find bloat\", \"what can I delete\", /ponytail-audit.",
+      "relPath": "skills/senior-engineering-and-tdd/ponytail-audit/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "ponytail-debt",
+      "name": "ponytail-debt",
+      "category": "senior-engineering-and-tdd",
+      "description": "List every `shortcut:` comment (and older `ponytail:` ones) as a debt ledger. One-shot report, changes nothing. Use for \"ponytail debt\", \"what did ponytail defer\", \"list the shortcuts\", /ponytail-debt.",
+      "relPath": "skills/senior-engineering-and-tdd/ponytail-debt/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "ponytail-gain",
+      "name": "ponytail-gain",
+      "category": "senior-engineering-and-tdd",
+      "description": "Show ponytail's measured savings (code, cost, speed) from the benchmark. One-shot display. Use for /ponytail-gain, \"what does ponytail save\", \"ponytail impact\".",
+      "relPath": "skills/senior-engineering-and-tdd/ponytail-gain/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "ponytail-review",
+      "name": "ponytail-review",
+      "category": "senior-engineering-and-tdd",
+      "description": "Quality review of a change: is the logic right, is it safe, does it hold under real load, is risky code tested, is it fast enough, and is every line needed. Reads the connected code, not only the diff. Each finding is explained in plain English. Use for \"review this\", \"code review\", \"review the last commit\", \"review my PR\", \"is this over-engineered\", /ponytail-review.",
+      "relPath": "skills/senior-engineering-and-tdd/ponytail-review/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "reticle-replay-user-flows",
+      "name": "replay-user-flows",
+      "category": "senior-engineering-and-tdd",
+      "description": "Turn a user journey you just clicked through into a saved regression check that re-runs deterministically, with no model in the loop and no test code to write. Use when you have driven the same flow twice, when the user wants regression coverage without a Playwright suite, when a refactor needs proving against every existing journey, or when re-verifying by hand is costing a full drive every time.",
+      "relPath": "skills/senior-engineering-and-tdd/reticle-replay-user-flows/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "superpowers-systematic-debugging",
+      "name": "systematic-debugging",
+      "category": "senior-engineering-and-tdd",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "relPath": "skills/senior-engineering-and-tdd/superpowers-systematic-debugging/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "superpowers-test-driven-development",
+      "name": "test-driven-development",
+      "category": "senior-engineering-and-tdd",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "relPath": "skills/senior-engineering-and-tdd/superpowers-test-driven-development/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "superpowers-verification-before-completion",
+      "name": "verification-before-completion",
+      "category": "senior-engineering-and-tdd",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "relPath": "skills/senior-engineering-and-tdd/superpowers-verification-before-completion/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "reticle-verify-login-logout",
+      "name": "verify-login-logout",
+      "category": "senior-engineering-and-tdd",
+      "description": "Prove sign-in lands the user where they should be, sign-out really ends the session so a protected page sends them back to sign in, and an expired session asks to sign in again instead of breaking. Use when auth, a login form, a logout button, route guards or token refresh were added or changed, or when a user reports being logged out, or not logged out, unexpectedly.",
+      "relPath": "skills/senior-engineering-and-tdd/reticle-verify-login-logout/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "reticle-verify-ui-change",
+      "name": "verify-ui-change",
+      "category": "senior-engineering-and-tdd",
+      "description": "Check that a change to a web app actually works in the running app before calling it done. Drives the real page and returns a pass/fail verdict with the request that fired, the state that moved, and the file:line to fix. Use after editing a component, a form, a route, or an API call; when you have said",
+      "relPath": "skills/senior-engineering-and-tdd/reticle-verify-ui-change/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "superpowers-writing-plans",
+      "name": "writing-plans",
+      "category": "senior-engineering-and-tdd",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "relPath": "skills/senior-engineering-and-tdd/superpowers-writing-plans/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "category": "workflow-and-ecosystem",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists",
+      "relPath": "skills/workflow-and-ecosystem/canvas-design/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "category": "workflow-and-ecosystem",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "relPath": "skills/workflow-and-ecosystem/mcp-builder/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "category": "workflow-and-ecosystem",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill",
+      "relPath": "skills/workflow-and-ecosystem/skill-creator/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "category": "workflow-and-ecosystem",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "relPath": "skills/workflow-and-ecosystem/web-artifacts-builder/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "category": "workflow-and-ecosystem",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "relPath": "skills/workflow-and-ecosystem/webapp-testing/SKILL.md",
+      "platforms": [
+        "Universal",
+        "Cross-Platform"
+      ]
+    }
+  ]
+}

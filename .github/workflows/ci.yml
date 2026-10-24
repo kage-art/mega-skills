@@ -1,0 +1,27 @@
+name: MegaSkills CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify Skills Safety & Formatting
+        run: npm run verify
+
+      - name: Test Master Skill Installation
+        run: npm run install:master
+
+      - name: Test Catalog Generation
+        run: npm run catalog

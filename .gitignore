@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Local testing agents & IDE skills
+.agents/
+.cursor/
+upstream/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tmp/
+tmp/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor caches
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.local

@@ -1,0 +1,68 @@
+{
+  "name": "mega-skills",
+  "version": "1.0.0",
+  "description": "The Unified Mega Master Agent Skills Repository for AI Coding Assistants. Single installation, zero-slop code & UI, native Android & iOS mobile excellence, senior engineering discipline, and automated security.",
+  "type": "module",
+  "main": "bin/cli.mjs",
+  "bin": {
+    "mega-skills": "./bin/cli.mjs",
+    "megaskills": "./bin/cli.mjs",
+    "install": "./bin/cli.mjs",
+    "install-skills": "./bin/cli.mjs",
+    "mega-install": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "rules",
+    "catalog",
+    "docs",
+    "scripts",
+    "SKILL.md",
+    "README.md",
+    "install.ps1",
+    "install.sh"
+  ],
+  "scripts": {
+    "install": "node bin/cli.mjs install",
+    "start": "node bin/cli.mjs install",
+    "install:master": "node bin/cli.mjs install --profile master",
+    "install:all": "node bin/cli.mjs install --profile full",
+    "install:mobile": "node bin/cli.mjs install --profile mobile",
+    "install:antislop": "node bin/cli.mjs install --profile anti-slop",
+    "install:engineering": "node bin/cli.mjs install --profile engineering",
+    "install:creative": "node bin/cli.mjs install --profile creative",
+    "build": "node scripts/build-skills.mjs && node scripts/generate-catalog.mjs",
+    "verify": "node scripts/verify-skills.mjs",
+    "scan": "node scripts/scan-secrets.mjs && node scripts/scan-skills-malware.mjs && node scripts/scan-package-security.mjs",
+    "scan:secrets": "node scripts/scan-secrets.mjs",
+    "scan:skills": "node scripts/scan-skills-malware.mjs",
+    "scan:packages": "node scripts/scan-package-security.mjs",
+    "catalog": "node scripts/generate-catalog.mjs",
+    "list": "node bin/cli.mjs list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kage-art/mega-skills.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "anti-slop",
+    "android",
+    "ios",
+    "swiftui",
+    "jetpack-compose",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "codex",
+    "mcp",
+    "awesome-skills"
+  ],
+  "author": "kage-art",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kage-art/mega-skills/issues"
+  },
+  "homepage": "https://github.com/kage-art/mega-skills#readme"
+}
