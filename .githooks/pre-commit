@@ -1,0 +1,8 @@
+#!/bin/sh
+# MegaSkills Zero-Leak Pre-Commit Security Hook
+echo "[*] 🔐 Running Pre-Commit Secret & Credential Leak Audit..."
+node scripts/scan-secrets.mjs
+if [ $? -ne 0 ]; then
+  echo "\n[ERROR] Commit blocked! Potential secret or token detected. Remove it before committing."
+  exit 1
+fi
